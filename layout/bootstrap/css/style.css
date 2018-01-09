@@ -1,0 +1,689 @@
+@font-face {
+    font-family: "SourceSansPro-Regular";
+    src: url("fonts/SourceSansPro-Regular.eot");
+    src: url("fonts/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),
+         url("fonts/SourceSansPro-Regular.woff") format("woff"),
+         url("fonts/SourceSansPro-Regular.ttf") format("truetype"),
+         url("fonts/SourceSansPro-Regular.svg#abril_fatfaceregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansPro-Bold";
+    src: url("fonts/SourceSansPro-Bold.eot");
+    src: url("fonts/SourceSansPro-Bold.eot?#iefix") format("embedded-opentype"),
+         url("fonts/SourceSansPro-Bold.woff") format("woff"),
+         url("fonts/SourceSansPro-Bold.ttf") format("truetype"),
+         url("fonts/SourceSansPro-Bold.svg#abril_fatfaceregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PtSans-Bold";
+    src: url("fonts/PtSans-Bold.eot");
+    src: url("fonts/PtSans-Bold.eot?#iefix") format("embedded-opentype"),
+        url("fonts/PtSans-Bold.woff") format("woff"),
+        url("fonts/PtSans-Bold.ttf") format("truetype"),
+        url("fonts/PtSans-Bold.svg#abril_fatfaceregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PtSans-Regular";
+    src: url("fonts/PtSans-Regular.eot");
+    src: url("fonts/PtSans-Regular.eot?#iefix") format("embedded-opentype"),
+        url("fonts/PtSans-Regular.woff") format("woff"),
+        url("fonts/PtSans-Regular.ttf") format("truetype"),
+        url("fonts/PtSans-Regular.svg#abril_fatfaceregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PoetsenOne";
+    src: url("fonts/PoetsenOne.eot");
+    src: url("fonts/PoetsenOne.eot?#iefix") format("embedded-opentype"),
+        url("fonts/PoetsenOne.woff") format("woff"),
+        url("fonts/PoetsenOne.ttf") format("truetype"),
+        url("fonts/PoetsenOne.svg#abril_fatfaceregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{    
+    font-family: "RobotoSlabRegular";
+    src: url("fonts/RobotoSlab-Regular.eot");
+    src: url("fonts/RobotoSlab-Regular.eot?#iefix") format("embedded-opentype"),
+        url("fonts/RobotoSlab-Regular.woff") format("woff"),
+        url("fonts/RobotoSlab-Regular.ttf") format("truetype"),
+        url("fonts/RobotoSlab-Regular.svg#abril_fatfaceregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{    
+    font-family: "RobotoSlabLight";
+    src: url("fonts/RobotoSlab-Light.eot");
+    src: url("fonts/RobotoSlab-Light.eot?#iefix") format("embedded-opentype"),
+        url("fonts/RobotoSlab-Light.woff") format("woff"),
+        url("fonts/RobotoSlab-Light.ttf") format("truetype"),
+        url("fonts/RobotoSlab-Light.svg#abril_fatfaceregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#menu {   
+    height: 20px;
+}
+.dropdown-menu {
+    margin-left: 10px;
+    border-color: #ffccff;
+    border-style:solid;
+    border-width: 1px;
+    margin-top: 20px;
+    font-family: SourceSansPro-Regular;
+}
+.nav {   
+    text-align: center;
+    line-height: 35px;
+    color: #5b5b5b;    
+    font-family: SourceSansPro-Regular;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+/* overide the bootstrap.min.css */
+.nav > li > a {
+    padding: 0px 0px !important;
+}
+
+ul.nav li a, ul.nav li{ 
+    display: inline; 
+    float: left;
+    margin-left: 5px;
+}
+
+ul.nav li a,ul.nav li{ 
+    color: #5b5b5b;
+}
+
+/* Begin menu config */
+ul.nav li a.homemenu{
+    width: 90px;
+    text-align: center;
+}
+ul.nav li a.homemenu_active,
+ul.nav li a.homemenu:hover{
+    width: 90px;
+    text-align: center;
+    border-bottom: 2px solid #272264;
+    background: #FFF;
+}
+ul.nav li a.homemenu:focus,
+ul.nav li a.homemenu_active:focus{
+
+}
+
+ul.nav li a.introduce{
+    width: 85px;     
+    text-align: center;
+}
+ul.nav li a.introduce_active,
+ul.nav li a.introduce:hover{
+    width: 85px;
+    text-align: center;
+    border-bottom: 2px solid #272264;
+    background: #FFF;
+}
+
+ul.nav li a.introduce:focus,
+ul.nav li a.introduce_active:focus{
+
+}
+
+ul.nav li a.roundone{
+    width: 120px;     
+    text-align: center;
+}
+ul.nav li a.roundone_active,
+ul.nav li a.roundone:hover{
+    width: 120px;
+    text-align: center;
+    border-bottom: 2px solid #272264;
+    background: #FFF;
+}
+ul.nav li a.roundone:focus,
+ul.nav li a.roundone_active:focus{
+
+}
+
+ul.nav li a.roundfinal{
+    width: 130px;     
+    text-align: center;
+}
+ul.nav li a.roundfinal_active,
+ul.nav li a.roundfinal:hover{
+    width: 130px;
+    text-align: center;
+    border-bottom: 2px solid #272264;
+    background: #FFF;
+}
+ul.nav li a.roundfinal:focus,
+ul.nav li a.roundfinal_active:focus{
+
+}
+
+ul.nav li a.result{
+    width: 70px;     
+    text-align: center;
+}
+ul.nav li a.result_active,
+ul.nav li a.result:hover{
+    width: 70px;
+    text-align: center;
+    border-bottom: 2px solid #272264;
+    background: #FFF;
+}
+ul.nav li a.result:focus,
+ul.nav li a.result_active:focus{
+
+}
+
+ul.nav li a.blog{
+    width: 130px;     
+    text-align: center;
+}
+ul.nav li a.blog_active,
+ul.nav li a.blog:hover{
+    width: 130px;
+    text-align: center;
+    border-bottom: 2px solid #272264;
+    background: #FFF;
+}
+ul.nav li a.blog:focus,
+ul.nav li a.blog_active:focus{
+
+}
+
+ul.nav li a.contact{
+    width: 75px;
+    text-align: center;
+}
+ul.nav li a.contact_active,
+ul.nav li a.contact:hover{
+    width: 75px;
+    text-align: center;
+    border-bottom: 2px solid #272264;
+    background: #FFF;
+}
+ul.nav li a.contact_active:focus,
+ul.nav li a.contact:focus{
+
+}
+/* End menu config */
+
+
+.responsive a img{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.responsive a img:hover{
+    opacity: 1; 
+    filter:alpha(opacity=100)
+}
+
+.product_detail{
+    width: 220px;      
+    height: 260px;
+    float:left;        
+}
+.product_name{
+    height: 150px;
+}
+.product_tit{
+    width: 197px;
+    text-align: center;        
+    height: 55px;
+    font-family: RobotoSlabBold;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #646464;
+    font-weight: 500;
+}
+.product_price{
+    width: 197px;    
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #fe5454;
+    font-family: RobotoSlabBold;
+    font-weight: 500;
+    font-size: 15px;
+}
+#news_container ul{
+    list-style-type: none;
+    margin-top: 30px;
+}
+#news_container ul li{
+    float: left;
+    display:inline;
+}
+.news_detail{
+    width: 275px;
+    margin-bottom: 20px;
+}
+.news_title{    
+    padding-left: 145px;
+    padding-right: 15px;
+    text-align: left;
+    color: #9a9b9b;
+    height: 115px;    
+}
+.news_key{
+    padding-left: 145px;
+    padding-right: 10px;    
+    padding-bottom: 0px; 
+    line-height: 45px;
+}
+/* End product home*/
+
+/* Begin Category Product*/
+ul li.danhmuc_main{
+    list-style-type: none;
+    font-family: RobotoSlabRegular;
+    font-size: 17px;
+    line-height: 30px;
+    width: 100%;    
+}
+ul li.danhmuc_main a.selected{
+    color: #272262;
+    font-family: SourceSansPro-Bold;
+}
+li.danhmuc_main a{
+    text-transform: uppercase;
+    color: #909090;
+    font-family: SourceSansPro-Regular;
+}
+li.danhmuc_main a:hover{
+    text-decoration:underline;
+    color:#05b4fa;
+}
+li.danhmuc_main a:active{
+    color:#05b4fa;
+}
+ul li.danhmuc_sub {
+    list-style-type: none;    
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    line-height: 30px;    
+    margin-left: 10px;
+}
+li.danhmuc_sub a{    
+    color: #275d72;
+    font-family: SourceSansPro-Regular;    
+}
+li.danhmuc_sub a.selected{
+    color: #ff767c;
+    font-weight: bold;
+}
+li.danhmuc_sub a:hover{
+    color:#05b4fa;
+}
+/* End Category Product*/
+
+/* Begin Product Detail */
+.addcart{
+    background: url(../images/mua_hang.png) no-repeat top left;
+    width: 200px;
+    border:none;
+    cursor: pointer;
+    height: 50px;
+}
+/* End Product Detail */
+/* Begin List Product*/
+.product_main ul{
+    list-style-type: none;
+}
+.product_main ul li{ 
+    float: left;
+    display: inline;     
+}
+.product_main_detail{
+    width: 205px;
+    height: auto;
+    float:left;      
+}
+.product_main_title{
+    width: 200px;
+    font-size: 14px;
+    text-align: center;
+    height: 40px;
+    font-family: RobotoSlabRegular;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;       
+    line-height: 20px;   
+}
+.product_main_price{
+    width: 200px;
+    font-size: 14px;
+    font-family: RobotoSlabRegular;
+    text-align: center;
+    font-weight: 500;  
+    color: #fe5454;
+    margin-top: 15px;    
+}
+.product_main_price_en{
+    width: 200px;
+    font-size: 14px;
+    font-family: RobotoSlabRegular;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: line-through;    
+    color: #646464;
+    margin-top: 5px;    
+}
+/* End List Product*/
+
+/* Begin Pagination*/
+div.pagination{
+    padding:10px 10px 10px 10px;
+    margin:5px;
+    text-align:center;	
+    font-size:10px;
+}
+div.pagination a{
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #117dc2;
+    text-decoration: none; 
+    color: #117dc2;
+}
+div.pagination a:hover, 
+div.pagination a:active{
+    border:1px solid #117dc2;
+    color: #fff;
+    background-color: #117dc2;
+}
+div.pagination span.current{
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #117dc2;
+    font-weight: bold;
+    background-color: #117dc2;
+    color: #FFF;
+}
+div.pagination span.sotrang{
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #117dc2;
+    text-decoration: none; 
+    color: #117dc2;
+}
+div.pagination span.disabled{
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #117dc2;
+    color: #ccc;
+}
+/* End Pagination*/
+/* Begin Gio Hang */
+#che-bas-shopping-cart-items th.stt_cart_header{
+    width:40px; 
+    text-align:center;
+    border-bottom:1px solid #ff767c;    
+}
+.stt_cart{
+    border-bottom:1px solid #ff767c;    
+}
+#che-bas-shopping-cart-items th{    
+    vertical-align:middle;
+    background-color: #ff767c; 
+    border-top:1px solid #ff767c; 
+    font-size:14px; 
+    text-align:left; 
+    padding:10px 0px; 
+    font-family: RobotoSlabLight;    
+    color: #FFF;
+}
+.sectiontableheader {
+    background: #F0F8FB;
+    padding: 4px 8px;
+    color: #349ACA;
+    font-weight: bold;
+    text-align:center
+}
+
+.che-bas-item-image-cell{ 
+    font-size:11px; 
+    text-align:center; 
+    border-top:1px solid #ff767c; 
+    border-bottom:1px solid #ff767c; 
+    width: 10%;
+}
+a.che-bas-item-name{     
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-family: RobotoSlabRegular;
+    font-size: 14px;       
+}
+.item-img{
+    width:130px;
+    height:130px;
+    border:0px;
+    padding: 10px;
+}
+.che-bas-item-cell { 
+    width: 50%;
+    font-size:11px;
+    text-align:left;
+    border-top:1px solid #ff767c; 
+    border-bottom:1px solid #ff767c; 
+    vertical-align:top; 
+    padding-top:20px;      
+    padding-left: 10px;
+}
+.che-bas-item-money {
+    font-size: 14px;
+    font-family: RobotoSlabRegular;
+    border-top:1px solid #ff767c; 
+    border-bottom:1px solid #ff767c; 
+    vertical-align:top; 
+    padding-top:20px;
+    width: 12%;
+}
+.che-bas-item-so-luong{
+    font-size: 14px;
+    font-family: RobotoSlabRegular;
+    border-top:1px solid #ff767c; 
+    border-bottom:1px solid #ff767c; 
+    vertical-align:top; 
+    padding-top:20px;
+    width: 10%; 
+    height: 20px;
+    padding-left: 10px;
+}
+.che-bas-item-total{
+    font-size: 14px;
+    font-family: RobotoSlabRegular;
+    border-top:1px solid #ff767c; 
+    border-bottom:1px solid #ff767c; 
+    vertical-align:top; 
+    padding-top:20px;
+    width: 20%; 
+    height: 20px;
+    padding-left: 30px;
+}
+#che-bas-order-summary-outer { 
+    border:1px solid #ff767c;     
+    color:#000000;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5%;       
+}
+#che-bas-order-summary-inner {          
+    background-color:#f4f4f4; 
+    font-family: RobotoSlabRegular;
+    font-size: 14px;    
+    height: 120px;
+}
+.che-bas-item-cell ul, li {
+    margin: 0; 
+    padding: 0; 
+    list-style: none;
+}
+.check_coupon {   
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: #ff767c;  
+    padding: 5px 5px;  
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: RobotoSlabRegular;
+    text-decoration: none;   
+    outline: none;
+}
+.updateQuan{   
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: #ff767c;  
+    padding: 5px 5px;  
+    border-radius: 5px;            
+    color: #ffffff;
+    font-size: 15px;
+    font-family: RobotoSlabRegular;
+    text-decoration: none;   
+    outline: none;
+}
+/* End Gio Hang */
+
+.purechat-enterinfo-container {
+    text-align: justify !important; 
+}
+
+.purechat-collapsed-outer {
+    float:right;
+    margin-right: -35px !important;
+    background-color:#156fc7 !important;  
+    margin-bottom: 11px !important;
+}
+.purechat-widget-header {
+    background-color:#156fc7 !important;
+}
+.purechat-widget .purechat-menu .btn, 
+.purechat-window .purechat-menu .btn {
+    background-color:#156fc7 !important;
+}
+.purechat-content-wrapper
+{
+    background-color:#156fc7 !important;
+
+}
+.purechat-widget .purechat-expanded .purechat-widget-inner, 
+.purechat-widget .purechat-collapsed-outer .purechat-widget-inner {
+    background-color:#156fc7 !important;
+}
+.purechat-widget .purechat-ended-form .btn, 
+.purechat-window .purechat-ended-form .btn, 
+.purechat-widget .purechat-init-form .btn, 
+.purechat-window .purechat-init-form .btn, 
+.purechat-widget .purechat-email-form .btn, 
+.purechat-window .purechat-email-form .btn {
+    background-color:#156fc7 !important;
+    margin-top:20px !important;
+}
+.purechat-widget-title {
+    padding: 0px !important;
+}
+.purechat-widget .purechat-widget-header, 
+.purechat-window .purechat-widget-header {
+    border-bottom: 1px solid #FFF !important;
+}
+.purechat-widget .btn-toolbar, 
+.purechat-window .btn-toolbar {
+    margin-bottom:2px !important;
+}
+.collapsed-image {
+    margin-left: 48.15px !important;
+}
+
+/*new css*/
+.category_title {
+    color: #262066; 
+    text-transform: uppercase;
+    font-family: SourceSansPro-Bold;
+    font-size: 27px;
+    margin-bottom: 30px;
+    margin-top: 15px
+}
+.breakcrumb {
+    font-size:17px;
+    font-family: SourceSansPro-Regular;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.tieude_help {
+    font-size: 30px;
+    color: #337ab7;
+    font-family: SourceSansPro-Bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.noidung_help {
+    margin-bottom: 20px;
+    font-family: SourceSansPro-Regular;
+    font-size: 17px;
+    text-align: justify;
+    line-height: 30px;
+}
+.full-banner {
+    /*background-image: url('/layout/bootstrap/images/banner_introduce.png');*/
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center center;
+    background-size:100% auto;
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+    /* Makes the image fixed in the viewport so that it doesn't move when
+       the content height is greater than the image height */
+    /*background-attachment: fixed;*/
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color: #464646;
+    height: 400px;
+    padding: 0px;
+    color: #ffffff;
+    text-align:center;
+    font-family: SourceSansPro-Bold;
+    line-height: 450px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.full-banner-mobile {
+    /*background-image: url('/layout/bootstrap/images/banner_introduce.png');*/
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center center;
+    background-size:100% auto;
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+    /* Makes the image fixed in the viewport so that it doesn't move when
+       the content height is greater than the image height */
+    /*background-attachment: fixed;*/
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color: #464646;
+    height: 250px;
+    padding: 0px;
+    color: #ffffff;
+    text-align:center;
+    font-family: SourceSansPro-Bold;
+    line-height: 260px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
